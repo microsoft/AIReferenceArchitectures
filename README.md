@@ -1,5 +1,5 @@
 # AI Reference Architectures
-This repository contains the recommended ways to train and deploy models on Azure. It ranges from running massively parallel hyperparameter tuning using Hyperdrive to deploying deep learning models on Kubernetes. Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/)
+This repository contains the recommended ways to train and deploy models on Azure. It ranges from running massively parallel hyperparameter tuning using Hyperdrive to deploying deep learning models on Kubernetes. Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
 
 
 # Getting Started
@@ -27,6 +27,10 @@ git clone --recursive https://github.com/Microsoft/AIReferenceArchitectures.git
 # Requirements
 The tutorials have been mainly tested on Linux VMs in Azure. They haven't been tested on Windows yet. Each tutorial may have slightly different requirements such as GPU for some of the deep learning ones. For more details please consult the readme in each tutorial.
 
+# Reporting Issues
+Please report issues with each tutorial in the tutorials own github page.
+
+ 
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
