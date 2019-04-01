@@ -6,7 +6,7 @@ This repository contains the recommended ways to train and deploy models on Azur
 This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. 
 
 <p align="center">
-  <img width="1000" src="./images/demo.svg">
+  <img width="800" src="./images/demo.svg">
 </p>
 
 To pull all the tutorials simply run:
