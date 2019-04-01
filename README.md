@@ -3,10 +3,16 @@ This repository contains the recommended ways to train and deploy models on Azur
 
 
 # Getting Started
-This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. To pull all the tutorials simply run:
+This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. 
+
+<p align="center">
+  <img width="1000" src="./images/demo.svg">
+</p>
+
+To pull all the tutorials simply run:
 
 ```bash
-git clone --recurse-submodules -j8 https://github.com/Microsoft/AIReferenceArchitectures.git
+git clone --recurse-submodules https://github.com/Microsoft/AIReferenceArchitectures.git
 ```
 
 if you have git older than 2.13 run:
