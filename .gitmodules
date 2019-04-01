@@ -1,0 +1,6 @@
+[submodule "DeployDeepModelKubernetes"]
+	path = DeployDeepModelKubernetes
+	url = https://github.com/Microsoft/AKSDeploymentTutorialAML
+[submodule "DeployMLModelKubernetes"]
+	path = DeployMLModelKubernetes
+	url = https://github.com/Microsoft/MLAKSDeployAML
