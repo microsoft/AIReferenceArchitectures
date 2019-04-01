@@ -1,11 +1,9 @@
 # AI Reference Architectures
-This repository contains the recommended ways to train and deploy models on Azure. It ranges from running massively parallel hyperparameter tuning using Hyperdrive to deploying deep learning models on Kubernetes. Each path is arranged as a tutorial which takes you step by step through the process to train or deploy your model. The tutorials are arranged as Jupyter notebooks so you can simply download them and start running them. 
+This repository contains the recommended ways to train and deploy models on Azure. It ranges from running massively parallel hyperparameter tuning using Hyperdrive to deploying deep learning models on Kubernetes. Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks so you can simply download them and start running them. 
 
-# Requirements
-The tutorials have been mainly tested on Linux VMs in Azure. They haven't been tested on Windows yet. Each path may have slightly different requirements such as GPU for some of the deep learning ones. For more details please consult the readme in each path.
 
 # Getting Started
-This repo is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. To pull all the tutorials simply run:
+This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. To pull all the tutorials simply run:
 
 ```bash
 git clone --recurse-submodules -j8 https://github.com/Microsoft/AIReferenceArchitectures.git
@@ -17,6 +15,17 @@ if you have git older than 2.13 run:
 git clone --recursive https://github.com/Microsoft/AIReferenceArchitectures.git
 ```
 
+# Tutorials
+| Tutorial                                     | Environment | Description | Status                                                                                                                                                                                                                                                                                                              |
+|----------------------------------------------|-------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Deploy Deep Learning Model on Kuberenetes    | Python GPU  |             | [![Build Status](https://dev.azure.com/customai/AKSDeploymentTutorialAML/_apis/build/status/Microsoft.AKSDeploymentTutorialAML?branchName=master)](https://dev.azure.com/customai/AKSDeploymentTutorialAML/_build/latest?definitionId=11&branchName=master)                                                         |
+| Deploy Classic ML Model on Kuberenetes       | Python CPU  |             | ![](https://dev.azure.com/customai/MLAKSDeployAMLPipeline/_apis/build/status/Microsoft.MLAKSDeployAML?branchName=master)                                                                                                                                                                                            |
+| Hyperparameter Tuning of Classical ML Models | Python CPU  |             | ![](https://dev.azure.com/customai/MLHyperparameterTuningPipeline/_apis/build/status/Microsoft.MLHyperparameterTuning?branchName=master)                                                                                                                                                                            |
+| Deploy Deep Learning Model on Pipelines      | Python GPU  |             | [![Build Status](https://dev.azure.com/customai/BatchScoringDeepLearningModelsWithAMLPipeline/_apis/build/status/Azure.Batch-Scoring-Deep-Learning-Models-With-AML?branchName=master)](https://dev.azure.com/customai/BatchScoringDeepLearningModelsWithAMLPipeline/_build/latest?definitionId=9&branchName=master) |
+| Deploy Classic ML Model on Pipelines         | Python CPU  |             | ![](https://dev.azure.com/customai/AMLBatchScoringPipeline/_apis/build/status/Microsoft.AMLBatchScoringPipeline?branchName=master)                                                                                                                                                                                  |
+
+# Requirements
+The tutorials have been mainly tested on Linux VMs in Azure. They haven't been tested on Windows yet. Each tutorial may have slightly different requirements such as GPU for some of the deep learning ones. For more details please consult the readme in each tutorial.
 
 # Contributing
 
