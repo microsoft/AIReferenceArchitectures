@@ -4,3 +4,12 @@
 [submodule "DeployMLModelKubernetes"]
 	path = DeployMLModelKubernetes
 	url = https://github.com/Microsoft/MLAKSDeployAML
+[submodule "TrainMLModelHyperdrive"]
+	path = TrainMLModelHyperdrive
+	url = https://github.com/Microsoft/MLHyperparameterTuning
+[submodule "DeployDeepModelPipelines"]
+	path = DeployDeepModelPipelines
+	url = https://github.com/Azure/Batch-Scoring-Deep-Learning-Models-With-AML
+[submodule "DeployMLModelPipelines"]
+	path = DeployMLModelPipelines
+	url = https://github.com/Microsoft/AMLBatchScoringPipeline
