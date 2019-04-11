@@ -1,10 +1,15 @@
 # AI Reference Architectures
-[Microsoft AI Platform](https://www.microsoft.com/en-us/ai/ai-platform) offers a broad range of powerful tools and services to every developer and business, helping them innovate and succeed in this data driven era. This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python ones and RMarkdown for the R ones so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+AI nowadays is the new currency and rapdily [transforming](https://www.microsoft.com/en-us/ai/customer-stories) almost every single industry. [Microsoft AI Platform](https://www.microsoft.com/en-us/ai/ai-platform) offers a broad range of powerful tools and services to every developer and business, helping them innovate and succeed in this data driven era. 
 
 <p align="center">
   <img width="800" src="./images/Microsoft AI platform.PNG">
 </p>
 
+This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python ones and RMarkdown for the R ones so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+
+<p align="center">
+  <img width="800" src="./images/AI workload decision tree.png">
+</p>
 
 
 # Getting Started
