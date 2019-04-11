@@ -1,5 +1,10 @@
 # AI Reference Architectures
-This repository contains the recommended ways to train and deploy models on Azure. It ranges from running massively parallel hyperparameter tuning using Hyperdrive to deploying deep learning models on Kubernetes. Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python ones and RMarkdown for the R ones so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+[Microsoft AI Platform](https://www.microsoft.com/en-us/ai/ai-platform) offers a broad range of powerful tools and services to every developer and business, helping them innovate and succeed in this data driven era. This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python ones and RMarkdown for the R ones so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+
+<p align="center">
+  <img width="800" src="./images/Microsoft AI platform.PNG">
+</p>
+
 
 
 # Getting Started
@@ -36,6 +41,8 @@ The tutorials have been mainly tested on Linux VMs in Azure. They haven't been t
 # Reporting Issues
 Please report issues with each tutorial in the tutorials own github page.
 
+# Ongoing Work
+list out a bunch of intersting happy path works...
  
 # Contributing
 
