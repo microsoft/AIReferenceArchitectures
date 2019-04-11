@@ -43,7 +43,10 @@ The tutorials have been mainly tested on Linux VMs in Azure. They haven't been t
 # Reporting Issues
 Please report issues with each tutorial in the tutorials own github page.
 
-# Recommend a scenario
+# Ongoing Work
+We are constantly developing interesting AI reference architectures using Microsoft AI Platform. Some of the ongoing projects include IoT Edge scenarios, model scoring on mobile devices, add more... To follow the progress and any new reference architectures, please go to the AI section of this [link](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+
+# Recommend a Scenario
 If there is a particular scenario you are interested in seeing a tutorial for please fill in a [scenario suggestion](https://github.com/Microsoft/AIReferenceArchitectures/issues/new?assignees=&labels=&template=scenario_request.md&title=%5BSCENARIO%5D)
  
 # Contributing
