@@ -1,5 +1,7 @@
 # AI Reference Architectures
-This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python and PySpark ones, and RMarkdown for the R ones. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://github.com/Microsoft/MLHyperparameterTuning) to deploying deep learning models on [Kubernetes](https://github.com/Microsoft/AKSDeploymentTutorialAML). Each [tutorial](#tutorials) takes you step by step through the process to train or deploy your model. If you are confused about what service to use and when look at the [FAQ](#faq) below.  
+
+For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
 
 # Getting Started
 This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. 
@@ -20,7 +22,7 @@ if you have git older than 2.13 run:
 git clone --recursive https://github.com/Microsoft/AIReferenceArchitectures.git
 ```
 
-# Tutorials
+# Tutorials <a name="tutorials"></a>
 | Tutorial                                     | Environment | Description                                                                       | Status                                                                                                                                                                                                                                                                                                              |
 |----------------------------------------------|-------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Deploy Deep Learning Model on Kubernetes](https://github.com/Microsoft/AKSDeploymentTutorialAML)    				   | Python GPU  | Deploy image classification model on Kubernetes for _real-time_ scoring             | [![Build Status](https://dev.azure.com/customai/AKSDeploymentTutorialAML/_apis/build/status/Microsoft.AKSDeploymentTutorialAML?branchName=master)](https://dev.azure.com/customai/AKSDeploymentTutorialAML/_build/latest?definitionId=11&branchName=master)                                                         |
@@ -40,7 +42,7 @@ The tutorials have been mainly tested on Linux VMs in Azure. Each tutorial may h
 Please report issues with each tutorial in the tutorial's own github page.
 
 
-# FAQ
+# FAQ <a name="faq"></a>
 * __What service should I use for deploying models in Python?__  
  If you are looking to deploy a model in Python for realtime or batch scoring look [here](docs/python_scoring.md).
 * __What service should I use to train a model in Python?__  
