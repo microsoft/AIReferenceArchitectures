@@ -44,7 +44,7 @@ Please report issues with each tutorial in the tutorial's own github page.
 
 # FAQ <a name="faq"></a> 
 <details>
-<summary><em>What service should I use for deploying models in Python? [click] </em></summary>
+<summary><em>What service should I use for deploying models in Python? </em></summary>
 <p align="center">
   <img width="800" src="images/decision_python_scoring.png">
 </p>
@@ -66,7 +66,7 @@ For a tutorial on how to use Hyperdrive go [here](https://github.com/Microsoft/M
 
 </details>
 
-# Recommend a Scenario
+## Recommend a Scenario
 If there is a particular scenario you are interested in seeing a tutorial for please fill in a [scenario suggestion](https://github.com/Microsoft/AIReferenceArchitectures/issues/new?assignees=&labels=&template=scenario_request.md&title=%5BSCENARIO%5D)
 
 ## Ongoing Work
