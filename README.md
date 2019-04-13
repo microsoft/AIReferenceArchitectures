@@ -1,9 +1,5 @@
 # AI Reference Architectures
-This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python ones and RMarkdown for the R ones so you can simply download them and start running them. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
-
-<p align="center">
-  <img width="800" src="./images/AI workload decision tree.png">
-</p>
+This repository contains the recommended ways to train and deploy machine learning models on Azure. It ranges from running massively parallel [hyperparameter tuning using Hyperdrive](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-tune-hyperparameters) to deploying deep learning models on [Kubernetes](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes). Each tutorial takes you step by step through the process to train or deploy your model. The tutorials are set up as Jupyter notebooks for the Python and PySpark ones, and RMarkdown for the R ones. For further documentation on the reference architectures please look [here](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
 
 # Getting Started
 This repository is arranged as submodules and therefore you can either pull all the tutorials or simply the ones you want. 
@@ -38,17 +34,24 @@ git clone --recursive https://github.com/Microsoft/AIReferenceArchitectures.git
 | [Train Distributed Deep Leaning Model](https://github.com/Azure/DistributedDeepLearning/)         				   | Python GPU  | Distributed training of ResNet50 model using Batch AI |                                                                                                                                                                                  |
 
 # Requirements
-The tutorials have been mainly tested on Linux VMs in Azure. They haven't been tested on Windows yet. Each tutorial may have slightly different requirements such as GPU for some of the deep learning ones. For more details please consult the readme in each tutorial.
+The tutorials have been mainly tested on Linux VMs in Azure. Each tutorial may have slightly different requirements such as GPU for some of the deep learning ones. For more details please consult the readme in each tutorial.
 
-# Reporting Issues
-Please report issues with each tutorial in the tutorials own github page.
+## Reporting Issues
+Please report issues with each tutorial in the tutorial's own github page.
 
-# Ongoing Work
-We are constantly developing interesting AI reference architectures using Microsoft AI Platform. Some of the ongoing projects include IoT Edge scenarios, model scoring on mobile devices, add more... To follow the progress and any new reference architectures, please go to the AI section of this [link](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+
+# FAQ
+* __What service should I use for deploying models in Python?__  
+ If you are looking to deploy a model in Python for realtime or batch scoring look [here](docs/python_scoring.md).
+* __What service should I use to train a model in Python?__  
+For advice on what service to use to train a Deep Learning or classical ML model in Python look [here](docs/python_training.md).
 
 # Recommend a Scenario
 If there is a particular scenario you are interested in seeing a tutorial for please fill in a [scenario suggestion](https://github.com/Microsoft/AIReferenceArchitectures/issues/new?assignees=&labels=&template=scenario_request.md&title=%5BSCENARIO%5D)
- 
+
+## Ongoing Work
+We are constantly developing interesting AI reference architectures using Microsoft AI Platform. Some of the ongoing projects include IoT Edge scenarios, model scoring on mobile devices, add more... To follow the progress and any new reference architectures, please go to the AI section of this [link](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/).
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
