@@ -78,3 +78,18 @@ steps:
     azureregion: ${{parameters.azureregion}}
     aks_service_name: ${{parameters.aks_service_name}}
     aksimagename: ${{parameters.aksimagename}}
+
+- bash: |
+    # Change this for prod? -> condition: or(canceled(),failed())
+    echo Execute Resource Group Delete
+	resourceGroupName = ${{parameters.azureresourcegroup}}
+    existResponse=$(az group exists -n $resourceGroupName)
+    if [ "$existResponse" == "true" ]; then
+      echo Deleting project resource group
+      az group delete --name $resourceGroupName --yes
+    else
+      echo Project resource group did not exist
+    fi
+    echo Done Cleanup
+  displayName: 'Development Cleanup'
+  condition: always()
