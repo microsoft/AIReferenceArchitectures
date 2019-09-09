@@ -53,7 +53,7 @@ jobs:
       workspacename: 'pythonmlrtsws'
       azureregion: 'westus'
       aksimagename: "pythonmlrtsaksimg"
-      aks_name: "pythonmlaks"
+      aks_name: "myimage"
       aks_location: "westus"
       aks_service_name: "pythonmlaksservice"
       python_path: $(python_path)
